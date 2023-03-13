@@ -1,0 +1,28 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    backdrop-filter: blur(4px);
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0 3rem;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    border-bottom: 1px solid transparent;
+    padding: 1.5rem 1rem;
+    transition: all ease-in-out;
+}
+
+.navbar ul li a:hover {
+    border-color: var(--main-text-color);
+    color: var(--main-text-color);
+}
