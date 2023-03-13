@@ -1,0 +1,9 @@
+/* vh - viewport height */
+.hero {
+    height: 100vh;
+    padding: 0 3.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text-color);
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+/* Declare global variables */
+:root {
+    --main-bg-color: #1c1c1c;
+    --main-text-color: rgb(110, 210, 150);
+    --white: white;
+    --gray: #bbb;
+    --main-font: "Lato", sans-serif;
+}
+
+/* Apply this styles to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+a {
+    text-decoration: none;
+}
+
+/* apply general styles to body */
+body {
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font);
+    color: var(--white);
+}
